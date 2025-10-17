@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mapa interativo · Guarujá Flats</title>
+    <meta
+      name="description"
+      content="Mapa interativo dos apartamentos Guarujá Flats. Descubra onde cada imóvel está localizado e escolha o ponto perfeito para suas férias."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a class="logo" href="index.html">Guarujá Flats</a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="apartamentos.html">Apartamentos</a></li>
+            <li><a href="mapa.html">Mapa</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-transition">
+      <section class="section">
+        <div class="section-heading">
+          <div>
+            <h2>Mapa interativo</h2>
+            <p>
+              Clique nos pins para visualizar fotos, detalhes essenciais e acesso rápido à página de cada apartamento. Explore as praias e escolha o cenário perfeito para a sua estadia.
+            </p>
+          </div>
+          <a class="btn" href="apartamentos.html">Ver catálogo</a>
+        </div>
+        <div id="full-map" data-aos="fade-up"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Inspirado no paraíso do litoral paulista – seus melhores dias começam aqui.
+    </footer>
+
+    <a class="whatsapp-floating" href="https://wa.me/5511999999999" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+      ☏
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const wrapper = document.querySelector('.page-transition');
+        if (wrapper) {
+          requestAnimationFrame(() => wrapper.classList.add('is-visible'));
+        }
+        if (window.AOS) {
+          window.AOS.init({ duration: 800, easing: 'ease-out', once: true });
+        }
+      });
+    </script>
+    <script type="module" src="assets/js/map.js"></script>
+  </body>
+</html>
