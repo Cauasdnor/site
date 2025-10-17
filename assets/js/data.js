@@ -166,5 +166,273 @@ export const apartments = [
     ],
     latitude: -23.9931,
     longitude: -46.2564
+  },
+  {
+    id: "boulevard-1002",
+    nome: "Apartamento 1002 – Pitangueiras (Boulevard Center)",
+    endereco: "Rua Petrópolis, 120 – Pitangueiras, Guarujá-SP",
+    bairro: "Pitangueiras",
+    distancia: "80 m da praia",
+    capacidade: "5 hóspedes",
+    valor: "R$ 590/noite",
+    descricao: "Varanda com vista parcial do mar, living integrado e dormitórios climatizados para relaxar após a praia.",
+    comodidades: [
+      "Varanda com vista parcial",
+      "Ar-condicionado nos quartos",
+      "Wi-Fi fibra 500 Mbps",
+      "Vaga de garagem coberta"
+    ],
+    proximidade:
+      "Entre o calçadão de Pitangueiras e o Boulevard Center Mall, com padarias, farmácias e sorveterias a menos de 2 minutos.",
+    whatsapp: "https://wa.me/5511980010002",
+    fotos: [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=1200&q=80"
+    ],
+    latitude: -23.9928,
+    longitude: -46.256,
+    mapGroup: {
+      id: "boulevard-center-pitangueiras",
+      nome: "Boulevard Center – Pitangueiras",
+      endereco: "Rua Petrópolis, 120 – Pitangueiras, Guarujá-SP",
+      latitude: -23.9928,
+      longitude: -46.256
+    }
+  },
+  {
+    id: "boulevard-1101-1102",
+    nome: "Apartamento 1101/1102 – Pitangueiras (Boulevard Center)",
+    endereco: "Rua Petrópolis, 120 – Pitangueiras, Guarujá-SP",
+    bairro: "Pitangueiras",
+    distancia: "80 m da praia",
+    capacidade: "8 hóspedes",
+    valor: "R$ 880/noite",
+    descricao: "Duas unidades integradas com salas amplas, cozinha completa e suítes confortáveis para receber famílias grandes.",
+    comodidades: [
+      "Duas salas integradas",
+      "Cozinha com lava-louças",
+      "Suítes com ar-condicionado",
+      "Duas vagas de garagem"
+    ],
+    proximidade:
+      "A uma quadra da praia, próximo ao Pão de Açúcar, cafés tradicionais e ao aquário Acqua Mundo.",
+    whatsapp: "https://wa.me/5511980011102",
+    fotos: [
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1527030280862-64139fba04ca?auto=format&fit=crop&w=1200&q=80"
+    ],
+    latitude: -23.9928,
+    longitude: -46.256,
+    mapGroup: {
+      id: "boulevard-center-pitangueiras",
+      nome: "Boulevard Center – Pitangueiras",
+      endereco: "Rua Petrópolis, 120 – Pitangueiras, Guarujá-SP",
+      latitude: -23.9928,
+      longitude: -46.256
+    }
+  },
+  {
+    id: "boulevard-1104",
+    nome: "Apartamento 1104 – Pitangueiras (Boulevard Center)",
+    endereco: "Rua Petrópolis, 120 – Pitangueiras, Guarujá-SP",
+    bairro: "Pitangueiras",
+    distancia: "80 m da praia",
+    capacidade: "4 hóspedes",
+    valor: "R$ 620/noite",
+    descricao: "Vista lateral para o mar, cozinha americana equipada e ambientes iluminados para dias leves no litoral.",
+    comodidades: [
+      "Cozinha americana equipada",
+      "Ar-condicionado",
+      "Internet 400 Mbps",
+      "Serviço de praia incluso"
+    ],
+    proximidade:
+      "Na esquina da Rua Petrópolis com a Av. Marechal Deodoro, com restaurantes e mini mercado na mesma quadra.",
+    whatsapp: "https://wa.me/5511980011104",
+    fotos: [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1527030280862-64139fba04ca?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80"
+    ],
+    latitude: -23.9928,
+    longitude: -46.256,
+    mapGroup: {
+      id: "boulevard-center-pitangueiras",
+      nome: "Boulevard Center – Pitangueiras",
+      endereco: "Rua Petrópolis, 120 – Pitangueiras, Guarujá-SP",
+      latitude: -23.9928,
+      longitude: -46.256
+    }
+  },
+  {
+    id: "boulevard-1303",
+    nome: "Apartamento 1303 – Pitangueiras (Boulevard Center)",
+    endereco: "Rua Petrópolis, 120 – Pitangueiras, Guarujá-SP",
+    bairro: "Pitangueiras",
+    distancia: "80 m da praia",
+    capacidade: "6 hóspedes",
+    valor: "R$ 740/noite",
+    descricao: "Ampla sacada gourmet, ar-condicionado em todos os cômodos e espaços integrados para reunir a família.",
+    comodidades: [
+      "Sacada gourmet com mesa para 6",
+      "Ar-condicionado em todos os ambientes",
+      "Smart TV 55\"",
+      "Vaga coberta"
+    ],
+    proximidade:
+      "Perto das barracas tradicionais de Pitangueiras e do Morro do Maluf para passeios ao pôr do sol.",
+    whatsapp: "https://wa.me/5511980011303",
+    fotos: [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1527030280862-64139fba04ca?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80"
+    ],
+    latitude: -23.9928,
+    longitude: -46.256,
+    mapGroup: {
+      id: "boulevard-center-pitangueiras",
+      nome: "Boulevard Center – Pitangueiras",
+      endereco: "Rua Petrópolis, 120 – Pitangueiras, Guarujá-SP",
+      latitude: -23.9928,
+      longitude: -46.256
+    }
+  },
+  {
+    id: "boulevard-1306",
+    nome: "Apartamento 1306 – Pitangueiras (Boulevard Center)",
+    endereco: "Rua Petrópolis, 120 – Pitangueiras, Guarujá-SP",
+    bairro: "Pitangueiras",
+    distancia: "80 m da praia",
+    capacidade: "4 hóspedes",
+    valor: "R$ 670/noite",
+    descricao: "Vista privilegiada da orla, decoração moderna e ambientes climatizados que convidam ao descanso.",
+    comodidades: [
+      "Vista livre para a orla",
+      "Cozinha planejada",
+      "Suíte com cama king",
+      "Serviço de praia"
+    ],
+    proximidade:
+      "Em frente ao ponto de apoio da praia, a passos do La Plage Shopping e ótimos restaurantes.",
+    whatsapp: "https://wa.me/5511980011306",
+    fotos: [
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1527030280862-64139fba04ca?auto=format&fit=crop&w=1200&q=80"
+    ],
+    latitude: -23.9928,
+    longitude: -46.256,
+    mapGroup: {
+      id: "boulevard-center-pitangueiras",
+      nome: "Boulevard Center – Pitangueiras",
+      endereco: "Rua Petrópolis, 120 – Pitangueiras, Guarujá-SP",
+      latitude: -23.9928,
+      longitude: -46.256
+    }
+  },
+  {
+    id: "boulevard-1713",
+    nome: "Apartamento 1713 – Pitangueiras (Boulevard Center)",
+    endereco: "Rua Petrópolis, 120 – Pitangueiras, Guarujá-SP",
+    bairro: "Pitangueiras",
+    distancia: "80 m da praia",
+    capacidade: "5 hóspedes",
+    valor: "R$ 720/noite",
+    descricao: "Sacada panorâmica com vista para o mar, ambientes climatizados e décor em tons naturais para dias relaxantes.",
+    comodidades: [
+      "Sacada panorâmica com rede",
+      "Wi-Fi dedicado 500 Mbps",
+      "Ar-condicionado split",
+      "Vaga demarcada"
+    ],
+    proximidade:
+      "Andar alto com visão do Morro do Maluf, próximo a sorveterias, padarias e farmácias 24h.",
+    whatsapp: "https://wa.me/5511980011713",
+    fotos: [
+      "https://images.unsplash.com/photo-1522156373667-4c7234bbd804?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1527030280862-64139fba04ca?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    latitude: -23.9928,
+    longitude: -46.256,
+    mapGroup: {
+      id: "boulevard-center-pitangueiras",
+      nome: "Boulevard Center – Pitangueiras",
+      endereco: "Rua Petrópolis, 120 – Pitangueiras, Guarujá-SP",
+      latitude: -23.9928,
+      longitude: -46.256
+    }
+  },
+  {
+    id: "boulevard-2013",
+    nome: "Apartamento 2013 – Pitangueiras (Boulevard Center)",
+    endereco: "Rua Petrópolis, 120 – Pitangueiras, Guarujá-SP",
+    bairro: "Pitangueiras",
+    distancia: "80 m da praia",
+    capacidade: "6 hóspedes",
+    valor: "R$ 950/noite",
+    descricao: "Cobertura com vista 180° para o litoral, jacuzzi na varanda e área gourmet para encontros especiais.",
+    comodidades: [
+      "Cobertura duplex",
+      "Churrasqueira na varanda",
+      "Jacuzzi aquecida",
+      "Duas vagas cobertas"
+    ],
+    proximidade:
+      "Vista 180° para Pitangueiras e Enseada, ao lado de conveniências e do centro gastronômico da praia.",
+    whatsapp: "https://wa.me/5511980012013",
+    fotos: [
+      "https://images.unsplash.com/photo-1521782462922-9318be1de2e0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1527030280862-64139fba04ca?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80"
+    ],
+    latitude: -23.9928,
+    longitude: -46.256,
+    mapGroup: {
+      id: "boulevard-center-pitangueiras",
+      nome: "Boulevard Center – Pitangueiras",
+      endereco: "Rua Petrópolis, 120 – Pitangueiras, Guarujá-SP",
+      latitude: -23.9928,
+      longitude: -46.256
+    }
   }
 ];
+
+const mapLocationEntries = new Map();
+
+apartments.forEach((apartment) => {
+  const group = apartment.mapGroup || {
+    id: apartment.id,
+    nome: apartment.nome,
+    endereco: apartment.endereco,
+    latitude: apartment.latitude,
+    longitude: apartment.longitude
+  };
+
+  if (!mapLocationEntries.has(group.id)) {
+    mapLocationEntries.set(group.id, {
+      ...group,
+      apartamentos: []
+    });
+  }
+
+  const location = mapLocationEntries.get(group.id);
+  location.apartamentos.push({
+    id: apartment.id,
+    nome: apartment.nome,
+    thumbnail: apartment.fotos[0],
+    bairro: apartment.bairro,
+    distancia: apartment.distancia
+  });
+});
+
+export const mapLocations = Array.from(mapLocationEntries.values());
