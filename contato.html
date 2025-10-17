@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato · Guarujá Flats</title>
+    <meta
+      name="description"
+      content="Fale com a Guarujá Flats. Tire dúvidas sobre disponibilidade, reservas e serviços exclusivos dos nossos apartamentos de temporada."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a class="logo" href="index.html">Guarujá Flats</a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="apartamentos.html">Apartamentos</a></li>
+            <li><a href="mapa.html">Mapa</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-transition">
+      <section class="section">
+        <div class="section-heading">
+          <div>
+            <h2>Fale com a Guarujá Flats</h2>
+            <p>
+              Conte-nos como podemos transformar sua estadia na praia em uma experiência memorável. Retornaremos o contato rapidamente com as melhores opções disponíveis para o seu período.
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-wrapper">
+          <form data-aos="fade-up">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Como devemos te chamar?" required />
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seunome@email.com" required />
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Compartilhe detalhes sobre o período e número de hóspedes" required></textarea>
+
+            <button class="btn" type="submit">Enviar mensagem</button>
+          </form>
+
+          <div data-aos="fade-up" data-aos-delay="100">
+            <h3>Contato direto</h3>
+            <p>Preferiu um bate-papo rápido? Estamos online para te ajudar.</p>
+            <ul class="card-meta" style="margin: 1.5rem 0;">
+              <li>📞 (13) 3333-4444</li>
+              <li>📧 reservas@guarujaflats.com.br</li>
+            </ul>
+            <h4>Siga a experiência</h4>
+            <div class="social-links">
+              <a href="https://www.instagram.com" aria-label="Instagram">⌁</a>
+              <a href="https://www.facebook.com" aria-label="Facebook">Ⓕ</a>
+              <a href="https://www.youtube.com" aria-label="YouTube">▶</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Inspirado no paraíso do litoral paulista – seus melhores dias começam aqui.
+    </footer>
+
+    <a class="whatsapp-floating" href="https://wa.me/5511999999999" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+      ☏
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const wrapper = document.querySelector('.page-transition');
+        if (wrapper) {
+          requestAnimationFrame(() => wrapper.classList.add('is-visible'));
+        }
+        if (window.AOS) {
+          window.AOS.init({ duration: 800, easing: 'ease-out', once: true });
+        }
+      });
+    </script>
+  </body>
+</html>

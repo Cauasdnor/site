@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalhes do apartamento · Guarujá Flats</title>
+    <meta
+      name="description"
+      content="Veja fotos, comodidades e localização detalhada do apartamento escolhido em Guarujá Flats. Garanta sua reserva com conforto e segurança."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a class="logo" href="index.html">Guarujá Flats</a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="apartamentos.html">Apartamentos</a></li>
+            <li><a href="mapa.html">Mapa</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-transition">
+      <section class="section property-details">
+        <header data-aos="fade-up">
+          <span class="badge">Apartamento</span>
+          <h1 data-title></h1>
+        </header>
+
+        <div class="gallery" data-gallery></div>
+
+        <article data-aos="fade-up">
+          <h2>Experiência completa</h2>
+          <p data-description></p>
+        </article>
+
+        <article data-aos="fade-up">
+          <h3>Comodidades</h3>
+          <div class="card-meta" data-amenities></div>
+        </article>
+
+        <article data-aos="fade-up">
+          <h3>Proximidade</h3>
+          <p data-proximity></p>
+        </article>
+
+        <article data-aos="fade-up">
+          <h3>Informações</h3>
+          <table class="table-info" data-info-table>
+            <tbody></tbody>
+          </table>
+        </article>
+
+        <article data-aos="fade-up">
+          <h3>No mapa</h3>
+          <div id="property-map" class="map-container"></div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Inspirado no paraíso do litoral paulista – seus melhores dias começam aqui.
+    </footer>
+
+    <a class="whatsapp-floating" href="https://wa.me/5511999999999" data-whatsapp target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+      ☏
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script type="module" src="assets/js/property.js"></script>
+  </body>
+</html>

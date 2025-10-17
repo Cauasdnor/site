@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guarujá Flats · Catálogo de Imóveis de Temporada</title>
+    <meta
+      name="description"
+      content="Descubra apartamentos sofisticados para temporada no Guarujá. Veja fotos, comodidades, mapa interativo e encontre o seu refúgio perfeito à beira-mar."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a class="logo" href="index.html">Guarujá Flats</a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="apartamentos.html">Apartamentos</a></li>
+            <li><a href="mapa.html">Mapa</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-transition">
+      <section class="hero">
+        <div class="hero-content" data-parallax>
+          <span class="badge" data-aos="fade-down">Catálogo exclusivo no litoral</span>
+          <h1 data-aos="fade-up">Encontre o apartamento perfeito para suas férias no Guarujá</h1>
+          <p data-aos="fade-up" data-aos-delay="100">
+            Um portfólio curado de flats de alto padrão, com vista para o mar, conforto absoluto e serviços premium para dias inesquecíveis.
+          </p>
+          <div data-aos="fade-up" data-aos-delay="150">
+            <a class="btn" href="#destaques" data-scroll-to>Ver apartamentos</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="destaques" data-scroll-target>
+        <div class="section-heading">
+          <div>
+            <h2>Curadoria de destaques</h2>
+            <p>
+              Selecionei três refúgios com vista privilegiada e experiências exclusivas, perfeitos para quem busca conforto, sofisticação e proximidade com o mar.
+            </p>
+          </div>
+          <a class="btn" href="apartamentos.html">Explorar todos</a>
+        </div>
+        <div class="highlight-grid" data-highlight-grid></div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <div>
+            <h2>Explore pelo mapa</h2>
+            <p>
+              Visualize a localização dos apartamentos em tempo real e escolha o ponto ideal entre Enseada, Pitangueiras, Tombo, Astúrias e outras praias icônicas.
+            </p>
+          </div>
+          <a class="btn" href="mapa.html">Abrir mapa completo</a>
+        </div>
+        <div class="map-frame" data-aos="fade-up">
+          <iframe
+            title="Mapa rápido dos apartamentos"
+            src="https://www.google.com/maps/d/embed?mid=1cVd8V8y0-GuarujaFlats&ehbc=2E312F"
+            width="100%"
+            height="420"
+            style="border: 0"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Inspirado no paraíso do litoral paulista – seus melhores dias começam aqui.
+    </footer>
+
+    <a class="whatsapp-floating" href="https://wa.me/5511999999999" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+      ☏
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/gsap@3.12.2/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
+  </body>
+</html>
